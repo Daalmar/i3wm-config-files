@@ -223,7 +223,7 @@ bar {
 }
 
 # i3lock shortcut
-bindsym $mod+Shift+x exec ~/.config/i3/lock.sh
+bindsym Mod4+l exec ~/.config/i3/lock.sh
 
 # Pulse Audio controls
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
